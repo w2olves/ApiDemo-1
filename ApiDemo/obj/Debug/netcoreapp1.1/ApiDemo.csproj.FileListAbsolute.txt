@@ -1,0 +1,9 @@
+c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.deps.json
+c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.runtimeconfig.json
+c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.runtimeconfig.dev.json
+c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.dll
+c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.pdb
+c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.csprojResolveAssemblyReference.cache
+c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.AssemblyInfo.cs
+c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.dll
+c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.pdb
