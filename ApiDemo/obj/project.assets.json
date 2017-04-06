@@ -10773,10 +10773,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AC17435\\documents\\visual studio 2017\\Projects\\MVCDemo\\ApiDemo\\ApiDemo.csproj",
+      "projectUniqueName": "C:\\Users\\AC17435\\Source\\Repos\\ApiDemo-12\\ApiDemo\\ApiDemo.csproj",
       "projectName": "ApiDemo",
-      "projectPath": "C:\\Users\\AC17435\\documents\\visual studio 2017\\Projects\\MVCDemo\\ApiDemo\\ApiDemo.csproj",
-      "outputPath": "C:\\Users\\AC17435\\documents\\visual studio 2017\\Projects\\MVCDemo\\ApiDemo\\obj\\",
+      "projectPath": "C:\\Users\\AC17435\\Source\\Repos\\ApiDemo-12\\ApiDemo\\ApiDemo.csproj",
+      "outputPath": "C:\\Users\\AC17435\\Source\\Repos\\ApiDemo-12\\ApiDemo\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

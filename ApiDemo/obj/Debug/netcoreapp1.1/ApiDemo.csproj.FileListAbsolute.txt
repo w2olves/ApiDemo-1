@@ -7,3 +7,12 @@ c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\obj\Debug
 c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.AssemblyInfo.cs
 c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.dll
 c:\Users\AC17435\documents\visual studio 2017\Projects\MVCDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.pdb
+C:\Users\AC17435\Source\Repos\ApiDemo-12\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.deps.json
+C:\Users\AC17435\Source\Repos\ApiDemo-12\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.runtimeconfig.json
+C:\Users\AC17435\Source\Repos\ApiDemo-12\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.runtimeconfig.dev.json
+C:\Users\AC17435\Source\Repos\ApiDemo-12\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.dll
+C:\Users\AC17435\Source\Repos\ApiDemo-12\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.pdb
+C:\Users\AC17435\Source\Repos\ApiDemo-12\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.csprojResolveAssemblyReference.cache
+C:\Users\AC17435\Source\Repos\ApiDemo-12\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.AssemblyInfo.cs
+C:\Users\AC17435\Source\Repos\ApiDemo-12\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.dll
+C:\Users\AC17435\Source\Repos\ApiDemo-12\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.pdb

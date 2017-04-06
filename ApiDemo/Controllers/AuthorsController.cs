@@ -13,6 +13,7 @@ namespace ApiDemo.Controllers
         [HttpGet()]
         public IActionResult GetAuthors()
         {
+
             return Ok(AuthorsDatastore.Current.Authors);
         }
 
@@ -23,8 +24,19 @@ namespace ApiDemo.Controllers
             var authorToReturn = AuthorsDatastore.Current.Authors.FirstOrDefault(c => c.Id == id);
             if (authorToReturn == null)
             {
-                return NotFound();
+                return NotFound("This author ID is invalid");
             }
+            return Ok(authorToReturn);
+        }
+
+        [HttpGet("GetAuthorByName/{name}", Name = "GetAuthorByName")]
+        public IActionResult GetAuthorByName(string name)
+        {
+            var authorToReturn = AuthorsDatastore.Current.Authors.FirstOrDefault(c => c.Name.Contains(name));
+            if (authorToReturn == null)
+            {
+                return NotFound("There is no Author by that name");
+                }
             return Ok(authorToReturn);
         }
     }

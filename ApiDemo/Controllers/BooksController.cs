@@ -23,8 +23,8 @@ namespace ApiDemo.Controllers
             return Ok(author.Books);
         }
 
-        [HttpGet("{authorId}/books/{id}", Name = "GetPointOfInterest")]
-        public IActionResult Getbook(int authorId, int id)
+        [HttpGet("{authorId}/books/{bookid}", Name = "Getbook")]
+        public IActionResult GetbookByAuthorId(int authorId, int bookid)
         {
             var author = AuthorsDatastore.Current.Authors.FirstOrDefault(c => c.Id == authorId);
 
@@ -33,7 +33,7 @@ namespace ApiDemo.Controllers
                 return NotFound();
             }
 
-            var books = author.Books.FirstOrDefault(p => p.Id == id);
+            var books = author.Books.FirstOrDefault(p => p.Id == bookid);
 
             if (books == null)
             {
