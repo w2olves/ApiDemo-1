@@ -23,21 +23,21 @@ namespace ApiDemo.Controllers
             return Ok(author.Books);
         }
 
-        [HttpGet("{authorId}/books/{bookid}", Name = "Getbook")]
+        [HttpGet("{authorId}/books/{bookid}", Name = "GetbookByAuthorId")]
         public IActionResult GetbookByAuthorId(int authorId, int bookid)
         {
             var author = AuthorsDatastore.Current.Authors.FirstOrDefault(c => c.Id == authorId);
 
             if (author == null)
             {
-                return NotFound();
+                return NotFound("Author was not found");
             }
 
             var books = author.Books.FirstOrDefault(p => p.Id == bookid);
 
             if (books == null)
             {
-                return NotFound();
+                return NotFound("Author found but no book was found");
             }
 
             return Ok(books);

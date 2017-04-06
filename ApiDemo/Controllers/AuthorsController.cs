@@ -20,7 +20,6 @@ namespace ApiDemo.Controllers
         [HttpGet("{id}")]
         public IActionResult GetAuthor(int id)
         {
-            // find city
             var authorToReturn = AuthorsDatastore.Current.Authors.FirstOrDefault(c => c.Id == id);
             if (authorToReturn == null)
             {
